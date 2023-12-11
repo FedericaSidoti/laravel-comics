@@ -14,10 +14,10 @@
     
     
     @include('partials.header')
-    <main class="container">
-        
+    <main>
         @yield('content')
     </main>
+    @include('partials.footer')
 
 
 </body>

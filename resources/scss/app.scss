@@ -1,5 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
 @import './header.scss';
+@import './footer.scss' ;
 
 
 ul,
@@ -11,6 +12,49 @@ menu {
 body {
 //     background-color: aqua;
 font-size: 20px; 
+}
+
+.jumbo {
+    height: 500px; 
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.jumbo-section {
+    padding: 40px 0 0 0; 
+    .btn {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: -20px; 
+        left: 80px; 
+    }
+}
+
+.main-content {
+    padding: 40px 0 0 0;
+    background-color: black;
+    
+    .fig {
+        color: white;
+        display:flex; 
+        flex-direction: column;
+        gap: 10px; 
+    }
+        img{
+            max-width: 100%;
+            display: block;
+        }
+}
+
+.extra-section {
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
 }
 
 

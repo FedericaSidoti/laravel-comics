@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header container-fluid">
     <div>
         <img src="{{Vite::asset('resources/images/dc-logo.png')}}" alt="logo">
     </div>
