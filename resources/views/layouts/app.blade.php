@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Serve per collegare lo stile -->
     @vite('resources/js/app.js')
-    <title>Title</title>
+    <title>@yield('title')</title>
 
 </head>
 
 <body>
-    <h1>Prova</h1>
-
+    
+    
+    @include('partials.header')
     <main class="container">
+        
         @yield('content')
     </main>
 

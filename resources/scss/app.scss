@@ -1,5 +1,17 @@
 @import '~bootstrap/scss/bootstrap';
+@import './header.scss';
 
-// body {
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+body {
 //     background-color: aqua;
-// }
+font-size: 20px; 
+}
+
+
+

@@ -1,7 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
 @extends ('layouts.app')
+
+@section('title')
+    Comics
+@endsection
 
 @section('content')
 
