@@ -4,5 +4,9 @@
 @extends ('layouts.app')
 
 @section('content')
-<p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, velit.</p>
+
+@foreach ($comics as $comic)
+    <p>{{$comic['title']}}</p>
+@endforeach>
+
 @endsection
