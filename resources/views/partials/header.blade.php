@@ -3,12 +3,14 @@
         <img src="{{Vite::asset('resources/images/dc-logo.png')}}" alt="logo">
     </div>
     <ul>
+        <li>
+            <a href="{{ route('charachters') }}">Characters</a>
+        </li>
         <li>Characters</li>
         <li>Characters</li>
         <li>Characters</li>
         <li>Characters</li>
-        <li>Characters</li>
-        <li>TV</li>
+        <li> Tv</li>
         <li>Characters</li>
         <li>Characters</li>
         <li>Video</li>

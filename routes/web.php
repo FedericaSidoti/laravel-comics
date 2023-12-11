@@ -126,4 +126,8 @@ Route::get('/', function () {
     ];
 
     return view('home', compact('comics'));
-});
+})->name('home');
+
+Route::get('/charachters', function () {
+    return view('charachters');
+})->name('charachters');
